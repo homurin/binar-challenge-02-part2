@@ -1,0 +1,229 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="x-icon" href="assets/icons/favicon/642a550c99a0eb420ad3b15e_favicon.ico">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/nav.css" />
+    <link rel="stylesheet" href="assets/styles/hero.css" />
+    <link rel="stylesheet" href="assets/styles/service.css" />
+    <link rel="stylesheet" href="assets/styles/why-us.css" />
+    <link rel="stylesheet" href="assets/styles/testimony.css" />
+    <link rel="stylesheet" href="assets/styles/cta-section.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <title>Binar Car Rental</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img class="brand-logo" src="./assets/images/logo/logo.png"
+                        alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BCR</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Our Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Why Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Testimonial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-success" type="button"
+                                    style="border-radius: 0; background-color: #5CB85F; border-color: #5CB85F;">
+                                    Register
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section overflow-hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="text-hero-bold mb-4 ">
+                            <strong>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</strong>
+                        </div>
+                        <div class="text-hero-reguler mb-3">
+                            <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
+                                terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil
+                                selama 24 jam.</p>
+                        </div>
+                        <a href="cars.html" class="btn btn-success" type="button"
+                            style="border-radius: 0; background-color: #5CB85F; border-color: #5CB85F;">Sewa Mobil</a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mt-lg-0 mt-md-5">
+                        <img class="hero-image" src="./assets/images/hero/img_car.png"
+                            alt="Mercedes Car EQC 300kW Edition - 900x598 1">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="search">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-12">
+                        <div class="row search__card mx-lg-5 py-3 px-4">
+                            <div class="col-lg-auto col-xl-2 col-xxl-3 col-md-auto">
+                                <label>Tipe Driver</label>
+                                <select class="form-select" aria-label="Default select example" id="tipeDriver">
+                                    <option value="default" selected>Pilih Tipe Driver &nbsp; &nbsp; &nbsp; &nbsp;
+                                    </option>
+                                    <option value="true">Dengan Supir</option>
+                                    <option value="false">Tanpa Supir (Lepas Kunci)</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-auto col-xl-auto col-md-auto">
+                                <label>Tanggal</label>
+                                <input type="date" class="form-control" placeholder="Pilih Tanggal" id="tanggal">
+                            </div>
+                            <div class="col-lg-auto col-xl-auto col-md-auto search__time">
+                                <labe>Pilih Waktu</labe>
+                                <select class="form-select" aria-label="Default select example" id="waktuJemput">
+                                    <option value="false" selected>Pilih Waktu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    </option>
+                                    <option value="08:00">08.00 WIB</option>
+                                    <option value="09:00">09.00 WIB</option>
+                                    <option value="10:00">10.00 WIB</option>
+                                    <option value="11:00">11.00 WIB</option>
+                                    <option value="12:00">12.00 WIB</option>
+                                </select>
+
+                            </div>
+                            <div class="col-lg-auto col-xl-auto col-md-auto">
+                                <label class="fw-light">Jumlah Penumpang (optional)</label>
+                                <div class="input-group">
+                                    <input type="search" class="form-control border-end-0"
+                                        placeholder="Jumlah Penumpang" id="jumlahPenumpang" value="0">
+                                    <span class="input-group-text bg-white">
+                                        <img src="./assets/icons/search/fi_users.png" width="20px" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-xl-auto col-md-2  pt-4">
+                                <button class="btn btn-utama" id="load-btn">Cari Mobil</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cars">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-11 ">
+                        <div class="row" id="cars-container">
+                            <!-- <div class="col-lg-4">
+                                <div class="card  px-2 py-4">
+                                    <img src="images/cars.png" class="card-img-top mt-4 text-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-6">Nama/Tipe Mobil</h5>
+                                        <h5 class="card-title fs-5 fw-bold">Rp 430.000 / hari</h5>
+                                        <p class="cars__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <img src="images/fi_users1.png" width="20px" alt="" srcset="">
+                                            </div>
+                                            <div class="col-10 ms-lg-2">
+                                                4 orang
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-1">
+                                                <img src="images/fi_settings.png" width="20px" alt="" srcset="">
+                                            </div>
+                                            <div class="col-10 ms-lg-2">
+                                                Manual
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2 mb-4">
+                                            <div class="col-1">
+                                                <img src="images/fi_calendar.png" width="20px" alt="" srcset="">
+                                            </div>
+                                            <div class="col-10 ms-lg-2">
+                                                Tahun 2020
+                                            </div>
+                                        </div>
+    
+                                        <a href="#" class="btn btn-utama" style="width:100%">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container footer-section">
+        <div class="row g-2">
+            <div class="col-lg-3 address-text-regular">
+                <ul class="nav  row-gap-md-3 flex-column">
+                    <li>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</li>
+                    <li>binarcarrental@gmail.com</li>
+                    <li>081-233-334-808</li>
+                </ul>
+            </div>
+            <div class="col-lg-2 navigation-text-regular mt-lg-0 mt-md-3">
+                <ul class="nav row-gap-md-3 flex-column">
+                    <li>Our services</li>
+                    <li>Why Us</li>
+                    <li>Testimonial</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 nav footer-social-media mt-md-3 mt-lg-0 ms-lg-4 ms-md-2">
+                <div class="flex-column">
+                    <h5 class="social-media-text-regular">Connect with us</h5>
+                    <ul class="nav flex-row column-gap-lg-2 column-gap-md-3 column-gap-sm-4">
+                        <li><a href=""><img src="./assets/icons/social-media-icon/icon_facebook.svg"></a></li>
+                        <li><a href=""><img src="./assets/icons/social-media-icon/icon_instagram.svg"></a></li>
+                        <li><a href=""><img src="./assets/icons/social-media-icon/icon_twitter.svg"></a></li>
+                        <li><a href=""><img src="./assets/icons/social-media-icon/icon_mail.svg"> </a></li>
+                        <li><a href=""><img src="./assets/icons/social-media-icon/icon_twitch.svg"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 mt-lg-0 mt-md-4 ms-lg-auto ms-md-0 copyright-text-regular">
+                <p>Copyright Binar 2022</p>
+                <img class="brand-logo" src="./assets/images/logo/logo.png" alt="brand logo">
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/vendor/bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+    <!-- Example Javascript -->
+    <script type="text/javascript" src="scripts/binar.js"></script>
+    <script type="text/javascript" src="scripts/app.example.js"></script>
+    <script type="text/javascript" src="scripts/car.example.js"></script>
+    <script type="text/javascript" src="scripts/main.example.js"></script>
+</body>
+
+</html>

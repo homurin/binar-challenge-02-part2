@@ -1,0 +1,154 @@
+.offcanvas-backdrop {
+  height: 100%;
+}
+.navbar-toggler {
+  border: none;
+  color: #222222;
+}
+
+/* testimony */
+.testimony {
+  margin-top: 15vh;
+}
+.client-carousel-photo {
+  width: 70.22px;
+  height: 80px;
+  object-fit: cover;
+}
+.carousel-text-regular {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.carouse-text-bold {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.testemony-bold-text {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.testimony-regular-text {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* cta */
+.cta-section {
+  background-color: #0d28a6;
+  border-radius: 13px;
+  width: 1168px;
+  height: 326px;
+  border-radius: 13px;
+  color: white;
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.cta-bold-text {
+  font-family: Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+}
+
+.cta-regular-text {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+/* FAQ */
+
+.accordion-gap {
+}
+.faq-section {
+  margin-top: 15vh;
+}
+.faq-text-bold {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.faq-text-regular {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.faq-list {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.address-text-regular {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.navigation-text-regular {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.social-media-text-regular {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.copyright-text-regular {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+footer {
+  margin-top: 15vh;
+  box-sizing: border-box;
+  padding-bottom: 20vh;
+}
